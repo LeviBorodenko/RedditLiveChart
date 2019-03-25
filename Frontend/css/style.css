@@ -1,0 +1,93 @@
+html body{
+	margin: 0;
+}
+
+#retired {
+	position: absolute;
+	right: 10vw;
+	top: 10vh;
+	border: 5px solid darkred;
+	padding: 15px 20px 15px 20px;
+	border-radius: 3px;
+	font-family: "Baloo Chettan";
+	font-size: 1.5rem;
+	transform:  rotate(30deg);
+	color: darkred;
+	opacity: 0.6;
+}
+
+div.container {
+	height: 100vh;
+	width: 100vw;
+	background-color: #494949;
+	display: grid;
+	grid-template: 
+	"." 20px
+	"c1" 1fr
+	"c2" 1fr
+	"." 20px
+	/ 100vw;
+}
+
+div.diagram{
+	box-shadow:0 0 2px 1px indianred inset;
+	background-color: #363636;
+	height: 100%;
+	width: 100%;
+}
+
+div.content1 {
+	grid-area: c1;
+	border-radius: 5px 0 0 5px;
+}
+
+div.content2 {
+	grid-area: c2;
+	border-radius: 0 5px 5px 0;
+}
+
+
+div.tagBox--Top{
+	position: relative;
+	top: -15px;
+	left: 20px;
+	height: 0px;
+	width: 0px;
+	font-family: "Merriweather";
+	color: #F0EAD6;
+}
+
+div.tagBox--Bottom{
+	position: relative;
+	top: calc(100% - 10px);
+	left: 20px;
+	height: 0px;
+	width: 0px;
+	font-family: "Merriweather";
+	color: #F0EAD6;
+}
+
+
+path.graph {
+	fill: none;
+	stroke: indianred;
+	stroke-opacity: 0.8;
+	stroke-width: 2px;
+	transition: 0.5s;
+}
+
+svg {
+	stroke: rosybrown;
+}
+
+.domain {
+	stroke: mistyrose;
+}
+
+.tick {
+	stroke: mistyrose;
+}
+
+line {
+	stroke: mistyrose;
+}
