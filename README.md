@@ -7,7 +7,7 @@ ____
 
 ### How does it work?
 
-The backend folder contains an API that, given the ID of a reddit post, periodically fetches its comments and updates.
+The backend folder contains an API that, given the ID of a reddit post, periodically fetches its comments and upvotes.
 Dependencies: [FastApi](http://fastapi.tiangolo.com/), [praw](https://praw.readthedocs.io/en/latest/), [uvicorn](https://www.uvicorn.org/)
 
 The fontend folder contains a responsive and lightweight website that fetches the data from the API and dispays it using [D3.js](https://d3js.org/).
