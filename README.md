@@ -1,4 +1,4 @@
-# Reddit Live Chart experiment
+# Reddit Live Chart Experiment
 _Code behind [this](https://www.reddit.com/r/dataisbeautiful/comments/b4in2s/live_diagram_of_how_many_upvotes_and_comments/) very popular reddit post._
 
 ![result](https://i.imgur.com/TxIkL3R.png)
